@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Odd Pear Studio</title>
+<meta name="description" content="Odd Pear Studio is a small, independent studio building Twyne — a dating app built around genuine connection." />
+<link rel="icon" type="image/webp" href="assets/logo.webp" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <img src="assets/logo-transparent.png" alt="Odd Pear Studio logo" class="brand-logo" />
+      <span class="brand-name"><span class="odd">Odd</span><span class="pear">Pear</span> Studio</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#twyne">Twyne</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <img src="assets/logo-transparent.png" alt="Odd Pear Studio — a glowing pear with a curious worm" class="hero-logo" />
+      <h1>Odd pair. Good match.</h1>
+      <p class="hero-sub">We're Odd Pear Studio — small, independent, and trying to make dating suck
+        a little less. Our first release is <strong>Twyne</strong>: a dating app built around
+        genuine connection instead of endless swiping.</p>
+      <div class="hero-actions">
+        <a href="#twyne" class="btn btn-primary">Meet Twyne</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2>About the studio</h2>
+      <p>
+        At Odd Pear Studio, we're just a couple of devs who believe in the power of technology —
+        not to divide, but to provide. More ways to create the thing we're all craving: genuine
+        human connection. That's why we spent the time to build <strong>Twyne</strong>. (We swear
+        we're not trying to rhyme this much.)
+      </p>
+      <p>
+        For a lot of folks, the dating app marketplace is a cesspool. It doesn't have to be — the
+        problem is how these apps are designed. Like most social media, they're built to capture
+        your attention and commoditize it: either the free tier runs you through endless ads, or
+        you pay just to swipe more and boost your visibility in someone else's feed.
+      </p>
+      <p>
+        These apps farm your attention, and by design, encourage exactly the wrong behavior while
+        dating. Likes, swipes, roses, boosts, matches — they throw so much at daters that we stop
+        valuing our interactions, flooded in a sea of options, never really giving anyone a fair
+        shot. We think that sucks, and we think there's a better way forward.
+      </p>
+      <p>
+        So we built Twyne, and we're asking you to try things a little differently with us. Maybe
+        if we all went a little slower, we'd notice more of the common threads between us — and
+        who knows, maybe even <strong>Twyne</strong> up.
+      </p>
+    </div>
+  </section>
+
+  <section id="twyne" class="section section-alt">
+    <div class="wrap twyne-inner">
+      <div class="twyne-copy">
+        <h2>Twyne</h2>
+        <p>
+          Twyne is completely free to use while you're looking for your match — no fees to
+          browse, swipe, or get seen. Here's the twist: once you and someone else both match with
+          each other, all of your other likes disappear. The only person you can chat with is
+          your new Twyne.
+        </p>
+        <p>
+          Getting to know that person is where our simple flat monthly subscription comes in — it
+          grants you 30 days to chat and connect. After that, you can renew, or unmatch and start
+          your search again (fair warning: your previous likes are gone for good).
+        </p>
+        <p>
+          It's not enough to ask daters to approach things differently — we had to as well. We
+          don't charge you a cent to find people you like, and we don't charge to get more eyes on
+          your profile. We only earn our keep when you and someone else actually match. Our
+          incentives are aligned with yours: we're focused on creating real connections, because
+          that's the only way we keep the lights on.
+        </p>
+        <div class="store-badges">
+          <!-- TODO: replace with real App Store / Google Play badge links once published -->
+          <a href="#" class="btn btn-outline">App Store — coming soon</a>
+          <a href="#" class="btn btn-outline">Google Play — coming soon</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="wrap contact-inner">
+      <h2>Get in touch</h2>
+      <p>Questions, feedback, or press inquiries — we'd love to hear from you.</p>
+      <!-- TODO: confirm/replace with the real contact address -->
+      <a class="contact-email" href="mailto:hello@oddpearstudio.com">hello@oddpearstudio.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year"></span> Odd Pear Studio. All rights reserved.</span>
+    <nav class="footer-nav">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
